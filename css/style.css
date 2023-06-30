@@ -54,9 +54,7 @@ padding: 10px;
 display: flex;
 align-items: center;
 }
-.boticon{
-    height: 10%;
-}
+
 .chat-footer input[type="text"] {
 flex-grow: 1;
 padding: 5px;
@@ -78,6 +76,7 @@ cursor: pointer;
     background-color: #f1f0f0;
     color: #333;
     align-self: flex-start;
+    margin-left: 16%;
 }
 
 .messageUser {
@@ -95,4 +94,12 @@ cursor: pointer;
     margin-bottom: 10px;
     border-radius: 10px;
     word-wrap: break-word;
+}
+.boticon{
+    height: 10%;
+    width: 12%;
+    position: absolute;
+}
+#messageInput:hover{
+    border-color: #337ab7;
 }

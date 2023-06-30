@@ -57,12 +57,13 @@ function gnerateRespense(message){
 function showresp(resp){
     const messageElement = `
    
-       
-            <img src="../image/chatbot.png" class="boticon" alt="">
-        
-        <div>
-            <div class="messageChat">
-              ${resp}
+       <div class="content">
+                <img src="../image/robot.png" class="boticon" alt="">
+            
+            <div>
+                <div class="messageChat">
+                ${resp}
+                </div>
             </div>
         </div>
     
