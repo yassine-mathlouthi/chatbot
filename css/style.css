@@ -77,4 +77,5 @@ cursor: pointer;
     padding: 3px;
     margin: 4px;
     border-radius: 5px;
+    word-wrap: break-word;
 }
