@@ -24,7 +24,7 @@ right: 20px;
 width: 300px;
 height: 400px;
 background-color: #fff;
-border: 1px solid rgb(95, 92, 92);
+border: 1px solid rgb(168, 168, 168);
 border-top:  1px solid #337ab7;
 border-radius: 5px;
 display: none;
@@ -54,7 +54,9 @@ padding: 10px;
 display: flex;
 align-items: center;
 }
-
+.boticon{
+    height: 10%;
+}
 .chat-footer input[type="text"] {
 flex-grow: 1;
 padding: 5px;
@@ -65,24 +67,32 @@ border-radius: 3px;
 .chat-footer button {
 background-color: #337ab7;
 color: #fff;
-padding: 5px 10px;
+padding: 3px 13px;
 border: none;
 border-radius: 3px;
 margin-left: 10px;
 cursor: pointer;
 }
 
-.messageUser{
-    border: 1px solid #337ab7;
-    padding: 3px;
-    margin: 4px;
-    border-radius: 5px;
-    word-wrap: break-word;
+.messageChat {
+    background-color: #f1f0f0;
+    color: #333;
+    align-self: flex-start;
 }
-.messageChat{
-    border: 1px solid #3fdd7c;
-    padding: 3px;
-    margin: 4px;
-    border-radius: 5px;
+
+.messageUser {
+    background-color: #337ab7;
+    color: #fff;
+    align-self: flex-end;
+    margin-left: 25%;
+}
+
+.messageUser,
+.messageChat {
+    
+    max-width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
     word-wrap: break-word;
 }

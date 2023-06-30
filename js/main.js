@@ -55,9 +55,18 @@ function gnerateRespense(message){
     
 }
 function showresp(resp){
-    const messageElement = `<div class="messageChat">
-    ${resp}
-    </div>`
+    const messageElement = `
+   
+       
+            <img src="../image/chatbot.png" class="boticon" alt="">
+        
+        <div>
+            <div class="messageChat">
+              ${resp}
+            </div>
+        </div>
+    
+    `
     chatBody.innerHTML+=messageElement
     messageInput.value = '';
     resp=""
