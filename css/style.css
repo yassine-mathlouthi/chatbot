@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .chat-icon {
     position: fixed;
     bottom: 20px;
@@ -11,6 +12,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    
 }
   
 .chat-icon i {
@@ -47,6 +49,7 @@ margin: 0;
 padding: 10px;
 height: 320px;
 overflow-y: auto;
+background-color:#eff3f8;
 }
 
 .chat-footer {
@@ -73,17 +76,21 @@ cursor: pointer;
 }
 
 .messageChat {
-    background-color: #f1f0f0;
+    background-color: #ffffff;
     color: #333;
     align-self: flex-start;
     margin-left: 16%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
 }
 
 .messageUser {
-    background-color: #337ab7;
-    color: #fff;
+    background-color: #C9E5FC;
+    color: rgb(22, 22, 22);
     align-self: flex-end;
     margin-left: 25%;
+    border-radius: 10px;
+    border-top-right-radius: 0;
 }
 
 .messageUser,
@@ -92,7 +99,7 @@ cursor: pointer;
     max-width: 70%;
     padding: 8px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    
     word-wrap: break-word;
 }
 .boticon{
@@ -102,4 +109,16 @@ cursor: pointer;
 }
 #messageInput:hover{
     border-color: #337ab7;
+}
+.msgTime{
+    align-self: flex-start;
+    margin-left: 16%;
+    color:gray;
+    font-family: 'Caveat', cursive;
+}
+.msgTimeUser{
+    align-self: flex-start;
+    margin-left: 25%;
+    color:gray;
+    font-family: 'Caveat', cursive;
 }
