@@ -2,9 +2,16 @@
 const chatIcon = document.getElementById('chatIcon');
 const chatWindow = document.getElementById('chatWindow');
 const closeButton = document.getElementById('closeButton');
-
+var show = 0 
 chatIcon.addEventListener('click', () => {
-  chatWindow.style.display = 'block';
+  if (show==0){
+    chatWindow.style.display = 'block';
+    show=1
+  }
+  else {
+    chatWindow.style.display = 'none';
+    show=0
+  } 
 });
 
 closeButton.addEventListener('click', () => {
