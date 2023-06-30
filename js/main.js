@@ -26,10 +26,14 @@ const chatBody = document.querySelector('.chat-body');
 sendButton.addEventListener('click', () => {
   const message = messageInput.value.trim();
   if (message !== '') {
-    const messageElement = document.createElement('div');
+    /* const messageElement = document.createElement('div');
     messageElement.classList.add('message', 'user');
-    messageElement.textContent = message;
-    chatBody.appendChild(messageElement);
+    messageElement.textContent = message; */
+    const messageElement = `<div class="messageUser">
+    ${message}
+    </div>`
+    /* chatBody.appendChild(messageElement); */
+    chatBody.innerHTML+=messageElement
     messageInput.value = '';
   }
 });
