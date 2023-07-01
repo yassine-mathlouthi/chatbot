@@ -47,7 +47,7 @@ sendButton.addEventListener('click', () => {
 function gnerateRespense(message){
     message.includes("hi")
     if (message!=""){
-        if (message.includes("hello")|| message.includes("hi")){
+        if (message.includes("hello")|| message.includes("hi")|| message.includes("hey")|| message.includes("bonjour")|| message.includes("salut")){
             resp="hi , how can I help you ?"
         }
         else{
