@@ -79,9 +79,10 @@ cursor: pointer;
     background-color: #ffffff;
     color: #333;
     align-self: flex-start;
-    margin-left: 16%;
+    margin-left: 6%;
     border-radius: 10px;
     border-top-left-radius: 0;
+    display: inline-flex;
 }
 
 .messageUser {
@@ -105,14 +106,14 @@ cursor: pointer;
 .boticon{
     height: 10%;
     width: 12%;
-    position: absolute;
+    display: inline-flex;
 }
 #messageInput:hover{
     border-color: #337ab7;
 }
 .msgTime{
     align-self: flex-start;
-    margin-left: 16%;
+    margin-left: 6%;
     color:gray;
     font-family: 'Caveat', cursive;
 }
@@ -121,4 +122,8 @@ cursor: pointer;
     margin-left: 25%;
     color:gray;
     font-family: 'Caveat', cursive;
+}
+.content{
+    display: flex;
+    align-items:flex-start;
 }
